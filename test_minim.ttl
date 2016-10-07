@@ -50,6 +50,6 @@
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
   <http://purl.org/minim/minim#showfail> "Predicate modified not found" . 
 <http://localhost:3333/CatalogConstraint> <http://purl.org/minim/minim#toModel> <http://localhost:3333/Catalog> ; 
-  <http://purl.org/minim/minim#forTargetTemplate> "{+targetro}" ; 
+  <http://purl.org/minim/minim#forTargetTemplate> "*" ; 
   <http://purl.org/minim/minim#forPurpose> "ready-to-release" ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Constraint> . 
