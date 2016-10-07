@@ -1,11 +1,11 @@
-<http://localhost:3333/rule/ce2894b6131d283adf943cbfdf3e9c89> <http://purl.org/minim/minim#showpass> "Predicate <http://www.w3.org/ns/dcat#themeTaxonomy> is found" ; 
+<http://localhost:3333/rule/ce2894b6131d283adf943cbfdf3e9c89> <http://purl.org/minim/minim#showpass> "Predicate http://www.w3.org/ns/dcat#themeTaxonomy is found" ; 
   <http://purl.org/minim/minim#exists> "?catalogMetadata <http://www.w3.org/ns/dcat#themeTaxonomy> ?value ." ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
-  <http://purl.org/minim/minim#showfail> "Predicate <http://www.w3.org/ns/dcat#themeTaxonomy> not found" . 
-<http://localhost:3333/rule/9e8fc937658bda7beceb6a3c16537508> <http://purl.org/minim/minim#showpass> "Predicate <http://purl.org/dc/terms/identifier> is found" ; 
+  <http://purl.org/minim/minim#showfail> "Predicate http://www.w3.org/ns/dcat#themeTaxonomy not found" . 
+<http://localhost:3333/rule/9e8fc937658bda7beceb6a3c16537508> <http://purl.org/minim/minim#showpass> "Predicate http://purl.org/dc/terms/identifier is found" ; 
   <http://purl.org/minim/minim#exists> "?catalogMetadata <http://purl.org/dc/terms/identifier> ?value ." ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
-  <http://purl.org/minim/minim#showfail> "Predicate <http://purl.org/dc/terms/identifier> not found" . 
+  <http://purl.org/minim/minim#showfail> "Predicate http://purl.org/dc/terms/identifier not found" . 
 <http://localhost:3333/requirement/13> <http://purl.org/minim/minim#seq> "14" ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
   <http://purl.org/minim/minim#isDerivedBy> <http://localhost:3333/rule/ce2894b6131d283adf943cbfdf3e9c89> . 
@@ -17,14 +17,14 @@
     <http://localhost:3333/requirement/1> ; 
   <http://www.w3.org/2000/01/rdf-schema#label> "Catalog metadata model" ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Model> . 
-<http://localhost:3333/rule/c86e1300081580fd7066f7bfd3f7fc11> <http://purl.org/minim/minim#showpass> "Predicate <http://purl.org/dc/terms/issued> is found" ; 
+<http://localhost:3333/rule/c86e1300081580fd7066f7bfd3f7fc11> <http://purl.org/minim/minim#showpass> "Predicate http://purl.org/dc/terms/issued is found" ; 
   <http://purl.org/minim/minim#exists> "?catalogMetadata <http://purl.org/dc/terms/issued> ?value ." ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
-  <http://purl.org/minim/minim#showfail> "Predicate <http://purl.org/dc/terms/issued> not found" . 
-<http://localhost:3333/rule/3f2ae919e9c05cd1b735ab4f438ab19b> <http://purl.org/minim/minim#showpass> "Predicate <http://purl.org/dc/terms/title> is found" ; 
+  <http://purl.org/minim/minim#showfail> "Predicate http://purl.org/dc/terms/issued not found" . 
+<http://localhost:3333/rule/3f2ae919e9c05cd1b735ab4f438ab19b> <http://purl.org/minim/minim#showpass> "Predicate http://purl.org/dc/terms/title is found" ; 
   <http://purl.org/minim/minim#exists> "?catalogMetadata <http://purl.org/dc/terms/title> ?value ." ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
-  <http://purl.org/minim/minim#showfail> "Predicate <http://purl.org/dc/terms/title> not found" . 
+  <http://purl.org/minim/minim#showfail> "Predicate http://purl.org/dc/terms/title not found" . 
 <http://localhost:3333/CatalogCheckList> <http://purl.org/minim/minim#hasConstraint> <http://localhost:3333/CatalogConstraint> . 
 <http://localhost:3333/requirement/4> <http://purl.org/minim/minim#seq> "5" ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
@@ -41,14 +41,14 @@
 <http://localhost:3333/requirement/1> <http://purl.org/minim/minim#seq> "2" ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
   <http://purl.org/minim/minim#isDerivedBy> <http://localhost:3333/rule/9e8fc937658bda7beceb6a3c16537508> . 
-<http://localhost:3333/rule/fd0d017d4b0ac62150b3525c6ae841e2> <http://purl.org/minim/minim#showpass> "Predicate <http://purl.org/dc/terms/hasVersion> is found" ; 
+<http://localhost:3333/rule/fd0d017d4b0ac62150b3525c6ae841e2> <http://purl.org/minim/minim#showpass> "Predicate http://purl.org/dc/terms/hasVersion is found" ; 
   <http://purl.org/minim/minim#exists> "?catalogMetadata <http://purl.org/dc/terms/hasVersion> ?value ." ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
-  <http://purl.org/minim/minim#showfail> "Predicate <http://purl.org/dc/terms/hasVersion> not found" . 
-<http://localhost:3333/rule/3e2f60daa912b4bbfdda79d75fe2752b> <http://purl.org/minim/minim#showpass> "Predicate <http://purl.org/dc/terms/modified> is found" ; 
+  <http://purl.org/minim/minim#showfail> "Predicate http://purl.org/dc/terms/hasVersion not found" . 
+<http://localhost:3333/rule/3e2f60daa912b4bbfdda79d75fe2752b> <http://purl.org/minim/minim#showpass> "Predicate http://purl.org/dc/terms/modified is found" ; 
   <http://purl.org/minim/minim#exists> "?catalogMetadata <http://purl.org/dc/terms/modified> ?value ." ; 
   <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
-  <http://purl.org/minim/minim#showfail> "Predicate <http://purl.org/dc/terms/modified> not found" . 
+  <http://purl.org/minim/minim#showfail> "Predicate http://purl.org/dc/terms/modified not found" . 
 <http://localhost:3333/CatalogConstraint> <http://purl.org/minim/minim#toModel> <http://localhost:3333/Catalog> ; 
   <http://purl.org/minim/minim#forTargetTemplate> "{+targetro}" ; 
   <http://purl.org/minim/minim#forPurpose> "ready-to-release" ; 
