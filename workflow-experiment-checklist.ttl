@@ -1,0 +1,344 @@
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#experiment_complete_model> <http://purl.org/minim/minim#hasMustRequirement> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_accessible> , 
+    <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_inputdata> , 
+    <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_services_accessible> ; 
+  <http://purl.org/minim/minim#hasShouldRequirement> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_conclusion> , 
+  <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_hypothesys> , 
+  <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_sketch> ; 
+  <http://www.w3.org/2000/01/rdf-schema#label> "Complete experiment" ; 
+  <http://www.w3.org/2000/01/rdf-schema#comment> """
+      This model defines information that must be satisfied by the target RO
+      for the target RO to be considered a complete and fully-described 
+      workflow experiment.
+    """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Model> . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_title> <http://purl.org/minim/minim#seq> "024" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx5 . 
+<http://workflow-experiment#ChecklistConstraints> <http://purl.org/minim/minim#hasConstraint> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#experiment-complete> , 
+    <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#wf-accessible> . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_definition> <http://purl.org/minim/minim#seq> "026" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx7 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_description> <http://purl.org/minim/minim#seq> "025" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx6 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_annotations> <http://purl.org/minim/minim#seq> "101" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx21 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_input_label> <http://purl.org/minim/minim#seq> "032" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx12 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_output> <http://purl.org/minim/minim#seq> "041" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx15 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_live_annotations> <http://purl.org/minim/minim#seq> "102" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx22 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_accessible> <http://purl.org/minim/minim#seq> "027" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx8 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_conclusion> <http://purl.org/minim/minim#seq> "062" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx20 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_outputs_accessible> <http://purl.org/minim/minim#seq> "044" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx18 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#experiment-complete> <http://purl.org/minim/minim#toModel> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#experiment_complete_model> ; 
+  <http://purl.org/minim/minim#forTargetTemplate> "{+targetro}" ; 
+  <http://purl.org/minim/minim#forPurpose> "ready-to-release" ; 
+  <http://www.w3.org/2000/01/rdf-schema#comment> """
+          Constraint to be satisfied if the target RO is to be considered a
+          complete and fully-described workflow experiment.
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Constraint> . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_inputs_agregated> <http://purl.org/minim/minim#seq> "033" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx13 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#wf-accessible> <http://purl.org/minim/minim#toModel> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#wf_accessible_model> ; 
+  <http://purl.org/minim/minim#forTargetTemplate> "{+targetro}" ; 
+  <http://purl.org/minim/minim#forPurpose> "wf-accessible" ; 
+  <http://www.w3.org/2000/01/rdf-schema#comment> """
+          Constraint to test workflow accessible item in isolation
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Constraint> . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#wf_accessible_model> <http://purl.org/minim/minim#hasMustRequirement> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_accessible> ; 
+  <http://www.w3.org/2000/01/rdf-schema#label> "Workflow accessible" ; 
+  <http://www.w3.org/2000/01/rdf-schema#comment> """
+      Model to test workflow accessible item in isolation
+    """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Model> . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_label> <http://purl.org/minim/minim#seq> "023" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx4 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_inputs_accessible> <http://purl.org/minim/minim#seq> "034" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx14 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_inputdata> <http://purl.org/minim/minim#seq> "030" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx10 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_hypothesys> <http://purl.org/minim/minim#seq> "010" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx1 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_output_label> <http://purl.org/minim/minim#seq> "042" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx16 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_result_presentation> <http://purl.org/minim/minim#seq> "061" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx19 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_sketch> <http://purl.org/minim/minim#seq> "011" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx2 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_input> <http://purl.org/minim/minim#seq> "031" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx11 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_outputs_aggregated> <http://purl.org/minim/minim#seq> "043" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx17 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_workflow> <http://purl.org/minim/minim#seq> "021" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx3 . 
+<file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_services_accessible> <http://purl.org/minim/minim#seq> "028" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#Requirement> ; 
+  <http://purl.org/minim/minim#isDerivedBy> _:bF1F0DDADx9 . 
+_:bF1F0DDADx1 <http://purl.org/minim/minim#showpass> "Experiment hypothesis is present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_hypothesys> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?hypothesis rdf:type roterms:Hypothesis .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Experiment hypothesis is not present" . 
+_:bF1F0DDADx2 <http://purl.org/minim/minim#showpass> "Workflow design sketch is present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_sketch> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?sketch rdf:type roterms:Sketch .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow design sketch is not present" . 
+_:bF1F0DDADx3 <http://purl.org/minim/minim#showpass> "Workflow is present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_workflow> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?workflow rdf:type wfdesc:Workflow .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow is not present." . 
+_:bF1F0DDADx4 <http://purl.org/minim/minim#showpass> "All workflow labels are present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_label> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              wfdesc:hasWorkflowDefinition ?wfdef .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?wf rdfs:label ?wflab .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow label for %(wfdef)s is not present" . 
+_:bF1F0DDADx5 <http://purl.org/minim/minim#showpass> "All workflow titles are present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_title> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?wf dcterms:title ?wftitle .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow title for <i>%(wflab)s </i> is not present" . 
+_:bF1F0DDADx6 <http://purl.org/minim/minim#showpass> "Descriptive metadata are present for all workflows" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_description> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?wf dcterms:description ?wfdescr .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Description metadata for <i>%(wflab)s </i> is not present" . 
+_:bF1F0DDADx7 <http://purl.org/minim/minim#showpass> "Workflow definition are specified for all workflows" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_definition> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?wf wfdesc:hasWorkflowDefinition ?wfdef .
+        """ ; 
+  <http://purl.org/minim/minim#showmiss> "No workflows are described" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "No workflow definition is specified for <i>%(wflab)s </i>" . 
+_:bF1F0DDADx8 <http://purl.org/minim/minim#showpass> "All workflow definitions are accessible" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_accessible> ; 
+  <http://purl.org/minim/minim#isLiveTemplate> """
+          {+wfdef}
+        """ ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasWorkflowDefinition ?wfdef .
+        """ ; 
+  <http://purl.org/minim/minim#showmiss> "No workflow definitions are present" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "The definition for workflow <i>%(wflab)s </i> is not accessible" . 
+_:bF1F0DDADx9 <http://purl.org/minim/minim#showpass> "All web services used by workflows are accessible" ; 
+  <http://purl.org/minim/minim#showmiss___> "No workflow services are referenced" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_services_accessible> ; 
+  <http://purl.org/minim/minim#showfail___> "Web service <a href=\"%(pruri)s\"><i>%(prlab)s</i></a> is not accessible" ; 
+  <http://purl.org/minim/minim#isLiveTemplate> """
+          {+pruri}
+        """ ; 
+  <http://purl.org/minim/minim#forall> """
+          ?pr rdf:type wfdesc:Process ;
+              rdfs:label ?prlab .
+            {
+            ?pr wf4ever:serviceURI ?pruri .
+            }
+          UNION
+            {
+            ?pr wf4ever:wsdlURI ?pruri .
+            }
+        """ ; 
+  <http://purl.org/minim/minim#orderby> "ORDER BY ?prlab" ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "One or more web services used by one of the workflows are inaccessible, including <a href=\"%(pruri)s\"><i>%(prlab)s</i></a>" . 
+_:bF1F0DDADx10 <http://purl.org/minim/minim#showpass> "Input data is present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_inputdata> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?wfbundle roterms:inputSelected ?inputdata .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Input data is not present" . 
+_:bF1F0DDADx11 <http://purl.org/minim/minim#showpass> "Workflow inputs are described" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_input> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          
+          ?wf wfdesc:hasInput ?wfinp .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s</i> has no inputs described" . 
+_:bF1F0DDADx12 <http://purl.org/minim/minim#showpass> "Workflow inputs are labelled" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_input> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasInput ?ifdesc .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?ifdesc rdfs:label ?iflab .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> input %(if)s is not labelled" . 
+_:bF1F0DDADx13 <http://purl.org/minim/minim#aggregatesTemplate> """
+          {+if}
+        """ ; 
+  <http://purl.org/minim/minim#showpass> "Workflow inputs are aggregated" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_inputs_agregated> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasInput ?ifdesc .
+          ?ifdesc rdfs:label ?iflab ;
+              wfdesc:hasArtifact ?if .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> input <i>%(iflab)s </i> is not aggregated" . 
+_:bF1F0DDADx14 <http://purl.org/minim/minim#showpass> "Workflow inputs are all accessible" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_inputs_accessible> ; 
+  <http://purl.org/minim/minim#isLiveTemplate> """
+          {+if}
+        """ ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasInput ?ifdesc .
+          ?ifdesc rdfs:label ?iflab ;
+              wfdesc:hasArtifact ?if .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> input <i>%(iflab)s </i> is not accessible" . 
+_:bF1F0DDADx15 <http://purl.org/minim/minim#showpass> "Workflow outputs are described" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_output> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?wf wfdesc:hasoutput [ wfdesc:hasArtifact ?of ] .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> has no outputs specified" . 
+_:bF1F0DDADx16 <http://purl.org/minim/minim#showpass> "Workflow outputs are labelled" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_has_output_label> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasoutput ?ofdesc .
+        """ ; 
+  <http://purl.org/minim/minim#exists> """
+          ?ofdesc rdfs:label ?oflab .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> output %(of)s is not labelled" . 
+_:bF1F0DDADx17 <http://purl.org/minim/minim#aggregatesTemplate> """
+          {+of}
+        """ ; 
+  <http://purl.org/minim/minim#showpass> "Workflow outputs are described and aggregated" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_outputs_aggregated> ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasOutput ?ofdesc .
+          ?ofdesc rdfs:label ?oflab ;
+              wfdesc:hasArtifact ?of .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> output <i>%(oflab)s </i> is not aggregated" . 
+_:bF1F0DDADx18 <http://purl.org/minim/minim#showpass> "Workflow outputs are all accessible" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#WF_outputs_accessible> ; 
+  <http://purl.org/minim/minim#isLiveTemplate> """
+          {+if}
+        """ ; 
+  <http://purl.org/minim/minim#forall> """
+          ?wf rdf:type wfdesc:Workflow ;
+              rdfs:label ?wflab ;
+              wfdesc:hasOutput ?ofdesc .
+          ?ofdesc rdfs:label ?oflab ;
+              wfdesc:hasArtifact ?of .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow <i>%(wflab)s </i> output <i>%(oflab)s </i> is not accessible" . 
+_:bF1F0DDADx19 <http://purl.org/minim/minim#showpass> "Workflow results figure is present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_result_presentation> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?sketch rdf:type roterms:ResultsPresentation .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Workflow results figure is not present" . 
+_:bF1F0DDADx20 <http://purl.org/minim/minim#showpass> "Experiment conclusions are present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_conclusion> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?sketch rdf:type roterms:Conclusions .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Experiment conclusions are not present" . 
+_:bF1F0DDADx21 <http://purl.org/minim/minim#showpass> "Annotations are present" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_has_annotations> ; 
+  <http://purl.org/minim/minim#exists> """
+          ?astub rdf:type ro:AggregatedAnnotation .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Annotations are not present" . 
+_:bF1F0DDADx22 <http://purl.org/minim/minim#showpass> "Annotations bodies are all accessible" ; 
+  <http://purl.org/minim/minim#derives> <file:///tmp/agwebview-upload-IkTGQKworkflow-experiment-checklist.rdf#RO_live_annotations> ; 
+  <http://purl.org/minim/minim#isLiveTemplate> """
+          {+abody}
+        """ ; 
+  <http://purl.org/minim/minim#forall> """
+          ?astub rdf:type ro:AggregatedAnnotation ;
+            ao:body ?abody .
+        """ ; 
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/minim/minim#ContentMatchRequirementRule> ; 
+  <http://purl.org/minim/minim#showfail> "Annotation body %(abody)s for %(astub)s is not accessible" . 
