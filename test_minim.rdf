@@ -77,6 +77,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   <Description rdf:about="http://localhost:3333/CatalogConstraint">
     <ns1:toModel xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/Catalog"/>
     <ns1:forPurpose xmlns:ns1="http://purl.org/minim/minim#">ready-to-release</ns1:forPurpose>
+    <ns1:forTargetTemplate>{+targetro}</ns1:forTargetTemplate>
     <rdf:type rdf:resource="http://purl.org/minim/minim#Constraint"/>
   </Description>
 </RDF>
