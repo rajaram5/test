@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <Description rdf:about="http://localhost:3333/rule/ce2894b6131d283adf943cbfdf3e9c89">
+    <ns1:showpass xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://www.w3.org/ns/dcat#themeTaxonomy&gt; is found</ns1:showpass>
+    <ns1:exists xmlns:ns1="http://purl.org/minim/minim#">?catalogMetadata &lt;http://www.w3.org/ns/dcat#themeTaxonomy&gt; ?value .</ns1:exists>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#ContentMatchRequirementRule"/>
+    <ns1:showfail xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://www.w3.org/ns/dcat#themeTaxonomy&gt; not found</ns1:showfail>
+  </Description>
+  <Description rdf:about="http://localhost:3333/rule/9e8fc937658bda7beceb6a3c16537508">
+    <ns1:showpass xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/identifier&gt; is found</ns1:showpass>
+    <ns1:exists xmlns:ns1="http://purl.org/minim/minim#">?catalogMetadata &lt;http://purl.org/dc/terms/identifier&gt; ?value .</ns1:exists>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#ContentMatchRequirementRule"/>
+    <ns1:showfail xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/identifier&gt; not found</ns1:showfail>
+  </Description>
+  <Description rdf:about="http://localhost:3333/requirement/13">
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Requirement"/>
+    <ns1:isDerivedBy xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/rule/ce2894b6131d283adf943cbfdf3e9c89"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/Catalog">
+    <ns1:hasMustRequirement xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/requirement/13"/>
+    <ns1:hasMustRequirement xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/requirement/4"/>
+    <ns1:hasMustRequirement xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/requirement/3"/>
+    <ns1:hasMustRequirement xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/requirement/0"/>
+    <ns1:hasMustRequirement xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/requirement/2"/>
+    <ns1:hasMustRequirement xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/requirement/1"/>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Model"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/rule/c86e1300081580fd7066f7bfd3f7fc11">
+    <ns1:showpass xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/issued&gt; is found</ns1:showpass>
+    <ns1:exists xmlns:ns1="http://purl.org/minim/minim#">?catalogMetadata &lt;http://purl.org/dc/terms/issued&gt; ?value .</ns1:exists>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#ContentMatchRequirementRule"/>
+    <ns1:showfail xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/issued&gt; not found</ns1:showfail>
+  </Description>
+  <Description rdf:about="http://localhost:3333/rule/3f2ae919e9c05cd1b735ab4f438ab19b">
+    <ns1:showpass xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/title&gt; is found</ns1:showpass>
+    <ns1:exists xmlns:ns1="http://purl.org/minim/minim#">?catalogMetadata &lt;http://purl.org/dc/terms/title&gt; ?value .</ns1:exists>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#ContentMatchRequirementRule"/>
+    <ns1:showfail xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/title&gt; not found</ns1:showfail>
+  </Description>
+  <Description rdf:about="http://localhost:3333/CatalogCheckList">
+    <ns1:hasConstraint xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/CatalogConstraint"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/requirement/4">
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Requirement"/>
+    <ns1:isDerivedBy xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/rule/fd0d017d4b0ac62150b3525c6ae841e2"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/requirement/3">
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Requirement"/>
+    <ns1:isDerivedBy xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/rule/3e2f60daa912b4bbfdda79d75fe2752b"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/requirement/0">
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Requirement"/>
+    <ns1:isDerivedBy xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/rule/3f2ae919e9c05cd1b735ab4f438ab19b"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/requirement/2">
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Requirement"/>
+    <ns1:isDerivedBy xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/rule/c86e1300081580fd7066f7bfd3f7fc11"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/requirement/1">
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Requirement"/>
+    <ns1:isDerivedBy xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/rule/9e8fc937658bda7beceb6a3c16537508"/>
+  </Description>
+  <Description rdf:about="http://localhost:3333/rule/fd0d017d4b0ac62150b3525c6ae841e2">
+    <ns1:showpass xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/hasVersion&gt; is found</ns1:showpass>
+    <ns1:exists xmlns:ns1="http://purl.org/minim/minim#">?catalogMetadata &lt;http://purl.org/dc/terms/hasVersion&gt; ?value .</ns1:exists>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#ContentMatchRequirementRule"/>
+    <ns1:showfail xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/hasVersion&gt; not found</ns1:showfail>
+  </Description>
+  <Description rdf:about="http://localhost:3333/rule/3e2f60daa912b4bbfdda79d75fe2752b">
+    <ns1:showpass xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/modified&gt; is found</ns1:showpass>
+    <ns1:exists xmlns:ns1="http://purl.org/minim/minim#">?catalogMetadata &lt;http://purl.org/dc/terms/modified&gt; ?value .</ns1:exists>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#ContentMatchRequirementRule"/>
+    <ns1:showfail xmlns:ns1="http://purl.org/minim/minim#">Predicate &lt;http://purl.org/dc/terms/modified&gt; not found</ns1:showfail>
+  </Description>
+  <Description rdf:about="http://localhost:3333/CatalogConstraint">
+    <ns1:toModel xmlns:ns1="http://purl.org/minim/minim#" rdf:resource="http://localhost:3333/Catalog"/>
+    <ns1:forPurpose xmlns:ns1="http://purl.org/minim/minim#">ready-to-release</ns1:forPurpose>
+    <rdf:type rdf:resource="http://purl.org/minim/minim#Constraint"/>
+  </Description>
+</RDF>

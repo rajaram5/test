@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:lang="http://id.loc.gov/vocabulary/iso639-1/">
+    <rdf:Description rdf:about="http://semlab1.liacs.nl:8080/fdp/biobank">
+        <dct:hasVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1</dct:hasVersion>
+        <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biobank</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-01</dct:issued>
+        <dct:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-01</dct:modified>
+        <dct:title xml:lang="en">Rd connect's biobank catalog</dct:title>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+        <rdfs:label xml:lang="en">Rd connect's biobank catalog</rdfs:label>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/173631-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/44001-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/45274-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/45401-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/62316-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/76957-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/77088-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/77219-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/77350-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/77489-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/77630-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/77761-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/87919-collection1"/>
+        <dcat:dataset rdf:resource="http://semlab1.liacs.nl:8080/fdp/biobank/88051-collection1"/>
+        <dcat:themeTaxonomy rdf:resource="http://dbpedia.org/resource/Biobank"/>
+        <dcat:themeTaxonomy rdf:resource="http://edamontology.org/topic_3337"/>
+    </rdf:Description>
+</rdf:RDF>
